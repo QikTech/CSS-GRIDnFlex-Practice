@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.icon-arrow{
+   
+    align-self: flex-start;
+    align-self: center;
+    justify-self: left;  
+    background: chartreuse;
+    
+}
+
+.icon-logo{
+    align-self: center;
+    justify-self: center;    
+    /*background: burlywood;*/
+}
+
+.icon-search{ 
+    align-self: center;
+    background: chartreuse;
+}
+
+.icon-profile{
+    align-self: center;
+    justify-self: right;
+    background: cornflowerblue;
+}
+
+header{
+    box-shadow: 0px 0px 10px black;
+    display: grid;
+    /*justify-items: center;*/
+    align-items: center;
+    grid-template-columns: 1fr 100fr 2.5fr 1fr;
+}
