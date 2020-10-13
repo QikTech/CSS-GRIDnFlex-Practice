@@ -5,36 +5,75 @@
 }
 
 
-.icon-arrow{
-   
-    align-self: flex-start;
-    align-self: center;
-    justify-self: left;  
-    background: chartreuse;
-    
+header{
+    display: flex;
+    justify-content: flex-end; 
+    /* align-items: center; */
+  box-shadow: 0px 0px 5px black;
 }
+ 
+
+.icon-arrow{
+    margin-right: auto;
+    /*background: chartreuse;*/
+}
+.icon-arrow:hover{
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 0px 5px black;
+}
+
 
 .icon-logo{
     align-self: center;
-    justify-self: center;    
+    align-self: flex-star;
+    margin-right: auto;
     /*background: burlywood;*/
 }
 
+
+
 .icon-search{ 
-    align-self: center;
-    background: chartreuse;
+   
+    /*background: chartreuse;*/
 }
+.icon-search:hover{
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 0px 5px black;
+}
+
 
 .icon-profile{
-    align-self: center;
-    justify-self: right;
-    background: cornflowerblue;
+  
+    /*background: cornflowerblue;*/
+}
+.icon-profile:hover{
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 0px 5px black;
 }
 
-header{
-    box-shadow: 0px 0px 10px black;
-    display: grid;
-    /*justify-items: center;*/
-    align-items: center;
-    grid-template-columns: 1fr 100fr 2.5fr 1fr;
+/* Banner 1 */
+.banner1{ 
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+h1,h3{
+    font-size: 2vw;
+}
+
+.b1img{
+    align-self: center;
+    position: relative;
+    margin-bottom: 0;
+    border: 0;
+    border-color: transparent;
+}
+
+.b1txt{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+}
+
