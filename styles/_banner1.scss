@@ -1,0 +1,43 @@
+.banner1{
+    // background-color: black;
+    min-height: 80vh;
+    width: 100vw;
+    // display: flex;
+    position: relative;
+}
+
+.b1img:hover{ 
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
+}
+
+.b1img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+    width: 85vw;
+}
+
+.b1txtvw{
+    position: absolute;
+    width: 550px;
+    height: 143.46px;
+    left: 10vw;
+    top: 15vw;
+    font-size:1.2vw;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.learnbutton{
+// position: absolute;
+// width: 100px;
+// height: 26px;
+// left: 61px;
+// top: 429px;
+
+display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+background: #05A6F1;
+}
